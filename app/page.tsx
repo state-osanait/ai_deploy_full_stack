@@ -23,7 +23,7 @@ export default async function Home() {
 
   return (
     <main style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
-      <h1>(deploy test)Vercel + Supabase Deployment Test</h1>
+      <h1>Vercel + Supabase Deployment Test</h1>
       <p>Data successfully fetched from PostgreSQL:</p>
       <ul>
         {users.map((user) => (
